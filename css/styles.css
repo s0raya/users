@@ -10,4 +10,31 @@ h1 {
   color: #333;
 }
 
+img {
+  width: 115px;
+  height: fit-content
+}
 
+#listaUsuarios {
+  list-style: none;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  padding: 0;
+  justify-content: center;
+}
+
+.user {
+
+  background-color: #fff;
+  border: 1px solid grey;
+  border-radius: 5px;
+  margin-bottom: 10px;
+  padding: 10px;
+  line-height:0;
+}
+
+.user-data {
+  display: flex;
+  gap:20px
+}
